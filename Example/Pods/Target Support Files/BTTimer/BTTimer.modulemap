@@ -1,0 +1,6 @@
+framework module BTTimer {
+  umbrella header "BTTimer-umbrella.h"
+
+  export *
+  module * { export * }
+}

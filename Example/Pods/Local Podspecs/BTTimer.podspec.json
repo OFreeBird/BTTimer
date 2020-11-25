@@ -1,0 +1,22 @@
+{
+  "name": "BTTimer",
+  "version": "0.1.0",
+  "summary": "A short description of BTTimer.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/lingfeng33/BTTimer",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "lingfeng33": "237946843"
+  },
+  "source": {
+    "git": "https://github.com/lingfeng33/BTTimer.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "BTTimer/Classes/**/*"
+}
