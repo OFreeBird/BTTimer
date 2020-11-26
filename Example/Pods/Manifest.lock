@@ -1,27 +1,16 @@
 PODS:
-  - BTTimer (0.1.0)
-  - FBSnapshotTestCase (2.1.4):
-    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
-  - FBSnapshotTestCase/Core (2.1.4)
-  - FBSnapshotTestCase/SwiftSupport (2.1.4):
-    - FBSnapshotTestCase/Core
+  - BTTimer (0.1.1)
 
 DEPENDENCIES:
   - BTTimer (from `../`)
-  - FBSnapshotTestCase
-
-SPEC REPOS:
-  trunk:
-    - FBSnapshotTestCase
 
 EXTERNAL SOURCES:
   BTTimer:
     :path: "../"
 
 SPEC CHECKSUMS:
-  BTTimer: 22bbdeefe2319bee4e13cdde1d293109d25a9956
-  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  BTTimer: 1fa0fb04493db38da9ed08b21b41628266313405
 
-PODFILE CHECKSUM: efa5ac85cace5ad9fb2a4df23159b7639c208ed2
+PODFILE CHECKSUM: ab60413328fa7f5b96352c99fe69c77b5420f483
 
 COCOAPODS: 1.10.0

@@ -24,6 +24,7 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		E0CF593E8358B8249E37289E /* Pods_BTTimer_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BD7F9DA9E5F25558CE75D74 /* Pods_BTTimer_Tests.framework */; };
+		E8A09C4F256E3F0300B86785 /* BTNextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8A09C4E256E3F0300B86785 /* BTNextViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		11CED13265BA56800DE5D435 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		2C1C6E4649A886B63A8CD9A0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		11CED13265BA56800DE5D435 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		2C1C6E4649A886B63A8CD9A0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		380B7988D163357C22C47D10 /* Pods-BTTimer_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BTTimer_Tests.debug.xcconfig"; path = "Target Support Files/Pods-BTTimer_Tests/Pods-BTTimer_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* BTTimer_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BTTimer_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -65,8 +66,10 @@
 		8A31EF501CFF78E41682D848 /* Pods-BTTimer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BTTimer_Example.debug.xcconfig"; path = "Target Support Files/Pods-BTTimer_Example/Pods-BTTimer_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		90F04085B23B65C6C64B4CD5 /* Pods-BTTimer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BTTimer_Tests.release.xcconfig"; path = "Target Support Files/Pods-BTTimer_Tests/Pods-BTTimer_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B64C7B1B2623C85FCA54C095 /* Pods-BTTimer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BTTimer_Example.release.xcconfig"; path = "Target Support Files/Pods-BTTimer_Example/Pods-BTTimer_Example.release.xcconfig"; sourceTree = "<group>"; };
-		C1825FA105E618716E8267FD /* BTTimer.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = BTTimer.podspec; path = ../BTTimer.podspec; sourceTree = "<group>"; };
+		C1825FA105E618716E8267FD /* BTTimer.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BTTimer.podspec; path = ../BTTimer.podspec; sourceTree = "<group>"; };
 		E51946D618F6E24D2A19FB30 /* Pods_BTTimer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BTTimer_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8A09C4D256E3F0300B86785 /* BTNextViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTNextViewController.h; sourceTree = "<group>"; };
+		E8A09C4E256E3F0300B86785 /* BTNextViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTNextViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +140,8 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* BTViewController.h */,
 				6003F5A6195388D20070C39A /* BTViewController.m */,
+				E8A09C4D256E3F0300B86785 /* BTNextViewController.h */,
+				E8A09C4E256E3F0300B86785 /* BTNextViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -193,7 +198,6 @@
 				380B7988D163357C22C47D10 /* Pods-BTTimer_Tests.debug.xcconfig */,
 				90F04085B23B65C6C64B4CD5 /* Pods-BTTimer_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,7 +231,6 @@
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				25BA2B568C2B02638A82D3C6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -249,6 +252,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = lingfeng33;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 6PRKSYP25X;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -259,6 +265,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -296,24 +303,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		25BA2B568C2B02638A82D3C6 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-BTTimer_Tests/Pods-BTTimer_Tests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/FBSnapshotTestCase/FBSnapshotTestCase.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSnapshotTestCase.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BTTimer_Tests/Pods-BTTimer_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		6AF5803553440F7F2FD57D72 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -384,6 +373,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* BTAppDelegate.m in Sources */,
+				E8A09C4F256E3F0300B86785 /* BTNextViewController.m in Sources */,
 				6003F5A7195388D20070C39A /* BTViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
@@ -513,6 +503,7 @@
 			baseConfigurationReference = 8A31EF501CFF78E41682D848 /* Pods-BTTimer_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6PRKSYP25X;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BTTimer/BTTimer-Prefix.pch";
 				INFOPLIST_FILE = "BTTimer/BTTimer-Info.plist";
@@ -529,6 +520,7 @@
 			baseConfigurationReference = B64C7B1B2623C85FCA54C095 /* Pods-BTTimer_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6PRKSYP25X;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BTTimer/BTTimer-Prefix.pch";
 				INFOPLIST_FILE = "BTTimer/BTTimer-Info.plist";

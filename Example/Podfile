@@ -8,6 +8,6 @@ target 'BTTimer_Example' do
   target 'BTTimer_Tests' do
     inherit! :search_paths
 
-    pod 'FBSnapshotTestCase'
+#    pod 'FBSnapshotTestCase'
   end
 end
